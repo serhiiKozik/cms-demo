@@ -1,0 +1,22 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": ["standard", "standard-react", "prettier"],
+  "plugins": ["babel", "react", "promise", "prettier", "@typescript-eslint"],
+  "env": {
+    "browser": true
+  },
+  "globals": {
+    "__DEV__": false,
+    "__TEST__": false,
+    "__PROD__": false,
+    "__COVERAGE__": false
+  },
+  "rules": {
+    "quotes": [2, "double", { "avoidEscape": true }],
+    "no-unused-vars": "warn",
+    "key-spacing": 0,
+    "max-len": [2, 120, 2],
+    "object-curly-spacing": [2, "always"],
+    "prettier/prettier": "warn"
+  }
+}
