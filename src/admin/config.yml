@@ -4,7 +4,7 @@ backend:
   repo: serhiiKozik/cms-demo
   auth_type: implicit
 media_folder: "src/static/images/uploads"
-
+public_folder: "/images/uploads"
 collections:
   - label: "Pages"
     name: "Pages" # Used in routes, e.g., /admin/collections/blog
@@ -25,7 +25,7 @@ collections:
   - label: "Blog"
     name: "blog"
     folder: "src/content/blog"
-    extention: "json"
+    extension: "json"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}

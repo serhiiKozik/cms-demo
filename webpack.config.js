@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin")
+const CopyPlugin = require("copy-webpack-plugin")
 const path = require("path")
 const DotEnv = require("dotenv-webpack")
 
@@ -82,5 +83,8 @@ module.exports = (env, argv) => ({
       favicon: "./src/static/favicon.ico",
     }),
     new DotEnv(),
+    new CopyPlugin([
+      { from: "src/static/images", to: "/images" },
+    ]),
   ],
 })

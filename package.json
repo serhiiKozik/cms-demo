@@ -46,6 +46,7 @@
         "start": "webpack-dev-server --mode development"
     },
     "dependencies": {
+        "copy-webpack-plugin": "^5.1.1",
         "netlify-cms": "^2.10.2",
         "react": "^16.8.6",
         "react-dom": "^16.8.6"
