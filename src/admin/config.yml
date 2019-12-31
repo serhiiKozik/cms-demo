@@ -3,7 +3,7 @@ backend:
   branch: master
   repo: serhiiKozik/cms-demo
   auth_type: implicit
-media_folder: "/src/static/images/uploads"
+media_folder: "src/static/images/uploads"
 
 collections:
   - label: "Pages"
