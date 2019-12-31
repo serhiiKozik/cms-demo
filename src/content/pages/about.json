@@ -1,1 +1,11 @@
-{}
+{
+  "title": "The About page",
+  "intro": "some text here",
+  "team": [
+    {
+      "name": "The one",
+      "position": "beast",
+      "photo": "/src/static/images/uploads/enics3.jpeg"
+    }
+  ]
+}
