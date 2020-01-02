@@ -1,5 +1,5 @@
 import React from "react";
-import { FullWidthContainer, ContentContainer } from "../components/containers";
+import { FullWidthContainer, ContentContainer } from "../components/Containers";
 
 const Header = () => (
   <FullWidthContainer className="nav-bar-container">

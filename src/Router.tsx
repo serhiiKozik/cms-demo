@@ -1,8 +1,7 @@
 import React from "react";
-
 import { BrowserRouter as Router, Route } from "react-router-dom";
-
 import Home from "./views/Home";
+import About from "./views/About";
 
 const Routes = () => (
   <Router>
@@ -10,7 +9,7 @@ const Routes = () => (
       <Home />
     </Route>
     <Route path="/about">
-      <Home />
+      <About />
     </Route>
   </Router>
 );

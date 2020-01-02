@@ -21,7 +21,16 @@
 }
 
 .row {
+    display: flex;
     flex-direction: row;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.justify-content-center {
+    justify-content: center;
 }
 
 .align-items-center {
@@ -59,4 +68,25 @@
     line-height: 1;
     text-transform: uppercase;
 
+}
+
+/* About page */
+.team-member:not(:first-child):not(:last-child){
+    margin: 0 var(--space-md);
+}
+
+.text-block {
+    margin-bottom: var(--space-lg);
+    line-height: 1.5;
+}
+
+.team-member:last-child {
+    margin-left: var(--space-md);
+}
+
+.team-member-image {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    object-fit: cover;
 }

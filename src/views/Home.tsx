@@ -1,5 +1,5 @@
 import React from "react";
-import { ContentContainer } from "../components/containers";
+import { ContentContainer } from "../components/Containers";
 
 const HomePage = () => (
   <ContentContainer>
