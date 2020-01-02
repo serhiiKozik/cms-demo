@@ -3,9 +3,9 @@
   "intro": "some text here",
   "team": [
     {
-      "name": "The one",
-      "position": "beast",
-      "photo": "/src/static/images/uploads/enics3.jpeg"
+      "name": "Robin Good",
+      "position": "Accountant",
+      "photo": "/static/images/uploads/robin_pose_05.jpg"
     }
   ]
 }
