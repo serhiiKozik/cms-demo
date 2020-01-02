@@ -15,6 +15,7 @@ module.exports = (env, argv) => ({
     port: 3000,
     historyApiFallback: true,
   },
+
   target: "web",
   devtool: argv.mode === "development" ? "#sourcemap" : "false",
   resolve: {
@@ -51,20 +52,6 @@ module.exports = (env, argv) => ({
         ],
       },
       {
-        test: /\.yml$/,
-        use: [
-          {
-            loader: "file-loader",
-            options: {
-              name:
-                  argv.mode === "development"
-                      ? "[name].[ext]"
-                      : "static/[name].[ext]",
-            },
-          },
-        ],
-      },
-      {
         test: /\.woff(2)?$/,
         use: {
           loader: "url-loader",
@@ -81,10 +68,14 @@ module.exports = (env, argv) => ({
     new HtmlWebpackPlugin({
       template: "./src/index.html",
       favicon: "./src/static/favicon.ico",
+      "files": {
+        "css": ["static/style.css"],
+      }
     }),
     new DotEnv(),
     new CopyPlugin([
-      { from: "src/static/images", to: "/images" },
+      { from: "src/static", to: "static" },
+      { from: "src/admin", to: "admin" },
     ]),
   ],
 })

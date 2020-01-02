@@ -1,0 +1,62 @@
+/* Variables */
+:root {
+    /* Color */
+    --primary-bg: #34495e;
+    --primary-fg: #ffffff;
+    /* Font */
+    --font-large: 20px;
+    --font-extra-large: 28px;
+    /* Spacing */
+    --space-xs: 4px;
+    --space-sm: 8px;
+    --space-md: 16px;
+    --space-lg: 32px;
+    --space-xl: 64px;
+}
+
+/* Containers*/
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.full-width {
+    flex-basis: 100%;
+}
+
+.content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--space-md);
+}
+
+/* Navigation */
+.nav-bar-container{
+    background: var(--primary-bg);
+}
+
+.nav-item {
+    color: var(--primary-fg);
+    margin-right: var(--space-md);
+    text-decoration: none;
+    font-size: var(--font-large)
+}
+
+.logo {
+    margin-right: var(--space-lg);
+    color: var(--primary-fg);
+    font-size: var(--font-extra-large);
+    font-weight: 900;
+    line-height: 1;
+    text-transform: uppercase;
+
+}

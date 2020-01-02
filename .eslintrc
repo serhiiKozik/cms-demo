@@ -17,6 +17,7 @@
     "key-spacing": 0,
     "max-len": [2, 120, 2],
     "object-curly-spacing": [2, "always"],
-    "prettier/prettier": "warn"
+    "prettier/prettier": "warn",
+    "react/prop-types": 0
   }
 }

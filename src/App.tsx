@@ -1,10 +1,11 @@
 import React from "react";
-// @ts-ignore
-import CMSPage from "./admin";
+import Header from "./views/Header";
+import Routes from "./Router";
+
 const App = () => (
   <>
-    <h1>The App</h1>
-    <CMSPage />
+    <Header />
+    <Routes />
   </>
 );
 
