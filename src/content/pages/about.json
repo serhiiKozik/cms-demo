@@ -6,6 +6,11 @@
       "name": "Robin Good",
       "position": "Accountant",
       "photo": "/static/images/uploads/robin_pose_05.jpg"
+    },
+    {
+      "name": "The Ratcatcher",
+      "position": "Team lead",
+      "photo": "/static/images/uploads/page_3_illustration_in_more_english_fairy_tales.png"
     }
   ]
 }
