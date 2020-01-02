@@ -11,6 +11,11 @@
       "name": "The Ratcatcher",
       "position": "Team lead",
       "photo": "/static/images/uploads/page_3_illustration_in_more_english_fairy_tales.png"
+    },
+    {
+      "name": "Alladin",
+      "position": "Sales manager",
+      "photo": "/static/images/uploads/aladdin.png"
     }
   ]
 }
